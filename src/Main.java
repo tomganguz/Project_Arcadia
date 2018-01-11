@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main {
 
 
+    //Classe principale
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
@@ -22,11 +23,14 @@ public class Main {
         cognome = input.next();
         boolean ok = false;
 
+
+        //Ciclo while per ottenere esclusivamente Treno o Aereo come valore in input
         do{
 
             System.out.println("\n Treno o Aereo? (Scrivi con la maiuscola!)");
             mezzo = input.next();
 
+            //Utilizzato Objects.equals perchè la espressione == non è funzionante per le stringhe
             ok = Objects.equals("Aereo", mezzo);
 
             if(ok == false){
