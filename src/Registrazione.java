@@ -4,7 +4,6 @@ public class Registrazione extends Main{
 
     String nome, cognome, mezzo;
     int eta;
-    boolean tren;
 
     public Registrazione(String nome, String cognome, String mezzo, int eta) {
         this.nome = nome;
@@ -17,9 +16,7 @@ public class Registrazione extends Main{
 
         Treno trn = new Treno();
 
-        tren = Objects.equals("Treno", this.mezzo);
-
-        if(tren == true){
+        if(Objects.equals("Treno", this.mezzo)){
             trn.test();
         }
 
