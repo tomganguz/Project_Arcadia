@@ -1,3 +1,5 @@
+package booking;
+
 import java.util.Objects;
 
 public class Registrazione extends Main{

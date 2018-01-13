@@ -1,3 +1,5 @@
+package booking;
+
 import java.util.Objects;
 import java.util.Scanner;
 public class Main {
