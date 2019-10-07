@@ -1,5 +1,5 @@
 # Project_Arcadia
-Progetto scolastico, attualmente questo programma non possiede una utilità
+Vecchio progetto scolastico abbandonato.
 
 Questa esercitazione raccoglie in input dati per una ipotetica prenotazione di un treno oppure un aereo.
 
